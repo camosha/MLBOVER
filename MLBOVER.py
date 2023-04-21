@@ -79,7 +79,9 @@ team = st.text_input("What is their run total for today: ", value=int(0))
 team = float(team)
 dog = st.button("Analyze")
 if dog:
+    st.balloons()
     if team < lat5Average and x =='y':
         st.write('Bet This')
     else:
         st.write("No Action")
+        
