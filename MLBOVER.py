@@ -71,7 +71,7 @@ check4 = 'no'
 if lat5Average > lat8Average and lat5Average > lat13Average:
   check4='yes'
 x = 'no'
-if check1 =='yes' and check2 == "yes" and check3 == 'yes' and check4=='yes':
+if check1 =='yes' and check2 == "yes" and check3 == 'yes' and check 4=='yes':
   #print("This is a target teamn ")
   x = 'y'
 
@@ -80,7 +80,7 @@ team = float(team)
 dog = st.button("Analyze")
 if dog:
     st.balloons()
-    if team < lat5Average and x =='y':
+    if x =='y':
         st.write('Bet This')
     else:
         st.write("No Action")
